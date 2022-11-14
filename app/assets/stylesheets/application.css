@@ -13,3 +13,11 @@
  *= require_tree .
  *= require_self
  */
+
+ .btn-primary {
+  color: white;
+  border-color: white;
+  margin-bottom: 5px;
+}
+
+a:link { text-decoration: none; }

@@ -1,0 +1,19 @@
+<div>
+
+<h1 class = "m-3">Stupid Coaching</h1>
+
+<div class = "card m-3 p-2" style = "width: 18rem;">
+  <h4 class = "mx-3"><%= @question %><br></h4>
+  <em><h4 class = "p-2">-You</h4></em>
+</div>
+
+
+
+<div class = " bg-warning card m-3 p-2 text-dark bg-opacity-25" style = "width: 18rem;">
+  <h4 class = "mx-3"><%= @answer %></h4>
+  <em><h4 class = "p-2">-Your coach<h4></em>
+</div>
+
+<button class = 'btn btn-primary mx-3'><%= link_to "Ask a new question", ask_path, class: "text-light"%></button>
+
+</div>
